@@ -1,17 +1,28 @@
 {
   "name": "blog-backend",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
-  "type":"module",
+  "type": "module",
   "dependencies": {
     "express": "^4.18.2"
   },
-  "devDependencies": {},
   "scripts": {
+    "dev":"nodemon src/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aidanWynne/blog-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/aidanWynne/blog-backend/issues"
+  },
+  "homepage": "https://github.com/aidanWynne/blog-backend#readme",
+  "description": ""
 }
